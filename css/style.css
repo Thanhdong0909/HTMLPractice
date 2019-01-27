@@ -1,0 +1,55 @@
+body{
+	color: white;
+	font-family: :"Times New Roman";
+	font-size: 13px;
+	width: 1000px;
+	margin: 0 auto;
+}
+#menu{
+	height: 40px;
+	border: 1px solid black;
+	background: #141414;
+	text-align: center;
+	color: white;
+}
+#banner {
+	height: auto;
+}
+#main #left {
+	min-height: 400px;
+	width: 700px;
+	background: green; 
+	float: left;
+}
+#main #right{
+	min-height: 400px;
+	width: 300px;
+	background: blue;
+	float: left;
+}
+#footer{
+	clear: left;
+	background: yellow;
+	min-height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+#menu ul{
+	padding:0px;
+	margin: 0px;
+}
+#menu ul li{
+	float: left;
+	list-style: none;
+}
+#menu ul li a{
+	text-decoration:none;
+	color:white;
+	padding: 0px 20px 0px 20px;
+	display: block;
+	line-height: 40px;
+	border-right: 1px solid #ccc;
+}
+#menu ul li a.active{
+	background: #0D4ABF;
+}
