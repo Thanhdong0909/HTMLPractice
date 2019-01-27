@@ -18,11 +18,11 @@ body{
 #main #left {
 	min-height: 400px;
 	width: 700px;
-	background: green; 
+	color: black;
 	float: left;
 }
 #main #right{
-	min-height: 400px;
+	min-height: 300px;
 	width: 300px;
 	background: blue;
 	float: left;
@@ -52,4 +52,24 @@ body{
 }
 #menu ul li a.active{
 	background: #0D4ABF;
+}
+#main #left ul {
+	margin: 0px;
+	padding: 0px;
+}
+#main #left ul li img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+} 
+#main #left ul li{
+	list-style: none;
+	clear: left;
+	border-bottom: 2px solid #ccc;
+	float: left;
+}
+#main #left ul h2{
+	font-size: 16;
+	margin-top: 0px;
 }
